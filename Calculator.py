@@ -2,8 +2,8 @@ print('----------Welcome To Calculator----------\n')
 
 print(' +  =  Addition\n','-  =  Substraction\n','*  =  Multiplication\n','/  =  Division\n','%  =  Modular Division\n','** =  Exponent\n','// =  Floor Division\n') 
 
-num1 = int(input('Enter the First number : '))
-num2 = int(input('Enter the Second number : '))
+num1 = float(input('Enter the First number : '))
+num2 = float(input('Enter the Second number : '))
 
 #opr = operator 
 opr = input('Enter the operator from +,-,*,/,%,**,// : ')
